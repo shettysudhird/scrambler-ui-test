@@ -1,0 +1,16 @@
+{
+    "baseUrl": "https://hacktheicon.scramblerducati.com/",
+    "prompts": [
+        "A futuristic Scrambler Ducati in a neon city",
+        "A Scrambler Ducati on a mountain trail",
+        "A classic Scrambler Ducati by the beach at sunset",
+        "A Scrambler Ducati in a neon-lit cyberpunk setting",
+        "A Scrambler Ducati with a vintage cafe racer style"
+    ],
+    "userDetails": {
+        "firstName": "Leonardo",
+        "lastName": "da Vinci",
+        "email": "leo.vinci@italy.com",
+        "country": "Italy"
+    }
+}

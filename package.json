@@ -1,0 +1,28 @@
+{
+  "name": "scrambler-ui-test",
+  "version": "1.0.0",
+  "description": "End-to-end tests for Scrambler UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node --transpile-only ./node_modules/@cucumber/cucumber/bin/cucumber-js",
+    "test:debug": "cross-env HEADLESS=false SLOW_MO=300 npx @cucumber/cucumber --format progress",
+    "test:chromium": "cross-env BROWSER=chromium ts-node --transpile-only ./node_modules/@cucumber/cucumber/bin/cucumber-js",
+    "test:firefox": "cross-env BROWSER=firefox ts-node --transpile-only ./node_modules/@cucumber/cucumber/bin/cucumber-js",
+    "test:webkit": "cross-env BROWSER=webkit ts-node --transpile-only ./node_modules/@cucumber/cucumber/bin/cucumber-js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.0",
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1",
+    "cross-env": "^7.0.3",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
